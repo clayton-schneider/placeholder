@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Simply Sprout</title>
+    <link rel="stylesheet" href="/styles/styles.css">
+</head>
+<body>
+    <section class="container bg--green">
+        <img src="/assets/logo.png" alt="Site Logo" class="logo">
+
+        <h1 class="header">Our website is under construction. If you need to get in touch please fill out the form below.</h1>
+        <form action="/pages/success.html" class="contact" name="contact" method="POST" data-netlify="true">
+            <div class="contact__group">
+                <div class="contact__item">
+                    <label for="name" class="contact__label">Name:</label>
+                    <input type="text" name="name" class="contact__input" autocomplete="off" required>
+                </div>
+
+                <div class="contact__item">
+                    <label for="email" class="contact__label">Email:</label>
+                    <input type="email" name="email" class="contact__input" autocomplete="off" required>
+                </div>
+            </div>
+            <div class="contact__item contact__item--last">
+                <label for="message" class="contact__label">Message:</label>
+                <textarea name="message" class="contact__input contact__input-txt-area" autocomplete="off" required></textarea>
+            </div>
+
+            <button type="submit" class="contact__btn">Submit</button>
+        </form>
+    </section>
+</body>
+</html>
